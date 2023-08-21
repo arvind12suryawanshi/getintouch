@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+   
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      padding: 30px; /* Adjust padding as needed */
+    }
+    .card-image {
+      padding: 0;
+    }
+    .card-content {
+      text-align: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card-content p {
+      padding: 20px 0;
+    }
+    .card-button {
+      width: 100%;
+    }
+
+    @media(min-width: 992px) { }
+  }
+
+
+
+
+
+  .card {
+    /* width: 80%; */
+    /* max-width: 800px; */
+    /* margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center; */
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    background: #173151;
+    border: 11px solid #f3f3f3;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin: auto;
+    /* height: 30vh; */
+  }
+  .card-image {
+    flex: 1;
+    padding-right: 20px;
+  }
+  .card-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    /* flex: 2; */
+   
+  }
+  .card-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .card-content p {   
+     display: block!important;
+    /* font-size: 16px; */
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* line-height: 48px; */
+    font-weight: 700;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+    /* padding-left: 150px; */
+    
+      text-align: left;
+  }
+ 
+  .card-button {
+    display: inline-block;
+    /* border: 2px solid white; */
+    background-color: blue;
+    /* padding: 10px 20px; */padding: 10px 32px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    background: transparent;
+    border: 1px solid #fff;
+    
+    width: 240px; 
+    margin-top: 30px; 
+     /* margin: 0; */
+    font-family: inherit;
+    border-radius: 8px!important; line-height: 1.2!important;  height: 50px!important;  font-size: 20px!important; text-align: center;
+/* 
+    border-radius: 8px!important;
+    margin-bottom: 1px;
+    padding: 0 32px;
+    font-size: 20px!important;
+    height: 50px!important;
+    line-height: 1.2!important; */
+   
+  }
+  .card-button:hover {
+    background-color: white;
+    color: blue; list-style: none;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="card-image">
+    <img src="remote-working-concept-flat-vector_203633-4040-removebg-preview.png" alt="Image">
+  </div>
+  <div class="card-content">
+    <h2>Not sure which course to Enroll?</h2>
+    <p>Talk to our career counsellors to <br> get better understanding of domain and courses..</p>
+ 
+    <a href="#" class="card-button">Get In Touch</a>
+  </div>
+</div>
+</body>
+</html>
